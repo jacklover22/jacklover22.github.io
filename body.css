@@ -1,0 +1,13 @@
+* {
+    background: #000000;
+    font-family: "Courier";
+    color: white;
+}
+
+div.parent {
+	text-align: center;
+	}
+ul { 
+	display: inline-block; 
+	text-align: left; 
+	}

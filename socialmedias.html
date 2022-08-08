@@ -15,14 +15,11 @@
                 </div>
             <h1>social  MEDIas</h1>
             <h3>here are my cool social media accounts
-                <br />(they are really cool)
+                <br>(they are really cool)</br>
                 <div>
-
                     <img width="400" src="assets/like.png">
-                      
                 </div>
             </h3>
-            <br />
             <div class="parent">
                 <ul>
                     <li><p><a href="https://www.youtube.com/channel/UCrUr3nDnWFguybMx0dcDd9A">yotube channel</a></p></li>
@@ -47,7 +44,15 @@
                 <hr class="border"></hr>
                 </div>
                 <div>
-                    <a href="news.html"><img src="assets/ad.gif" style="width:450px"></a>
+                    <script type="text/javascript">
+                        var images = [],
+                        index = 0;
+                        // just copy and paste that shit and change the funny [number] XDDDDDDDDDDDDD
+                        images[0] = "<a href = 'news.html'><img src='https://cdn.discordapp.com/attachments/682666136654970902/1006215421327851632/ad1.gif' alt='cool new news :flushed:'></a>";
+                        images[1] = "<a href = 'https://cdn.discordapp.com/attachments/682666136654970902/1006223101673082981/WEHAVETHEMEAT.mp4'><img src='https://cdn.discordapp.com/attachments/682666136654970902/1006222484502224907/Image1.jpg' alt='cool new news :flushed:'></a>";
+                        index = Math.floor(Math.random() * images.length);
+                        document.write(images[index]);
+                        </script>
                   </div>
         </center>
     </body>

@@ -10,6 +10,9 @@ var messages = [
     'wrong page idiot XD XD',
     'subscribe to corina the wolf guys really cool person guys',
     'LMA..... im not happy today',
+    'no hate on jack!!',
+    '#stophateonjack!!!!!',
+    'jack animates knows everything about you.',
 ]
 function newMessage() {
         var randomNumber = Math.floor(Math.random() * (messages.length));

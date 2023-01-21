@@ -11,3 +11,8 @@ ul {
 	display: inline-block; 
 	text-align: left; 
 	}
+
+.pixelated {
+	image-rendering: pixelated;
+}
+	  

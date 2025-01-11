@@ -4,5 +4,6 @@ var images = [],
 images[0] = "<a href = 'gaming-channel.html'><img src='ad/ad1.gif'></a>";
 images[1] = "<a href = 'ad/ad3.mp4'><img src='ad/Image1.jpg'></a>";
 images[2] = "<a href = 'jack-animates-strikes-again.html'><img src='ad/ad2.gif'></a>";
+images[3] = "<a href = 'stream.html'><img src='ad/ad4.gif'></a>";
         index = Math.floor(Math.random() * images.length);
         document.write(images[index]);
